@@ -66,11 +66,55 @@
                         <div class="meal-item-placeholder">
                             <span>No meals planned</span>
                         </div>
+                         <div class="meal-section" data-meal="breakfast">
+                    <div class="meal-header">
+                        <h3>Lunch</h3>
+                        <button class="add-meal-btn" data-meal="lunch">+</button>
+                    </div>
+                    <div class="meal-items" id="lunch-items">
+                        <div class="meal-item-placeholder">
+                            <span>No meals planned</span>
+                        </div>
+                         <div class="meal-section" data-meal="lunch">
+                    <div class="meal-header">
+                        <h3>Dinner</h3>
+                        <button class="add-meal-btn" data-meal="dinner">+</button>
+                    </div>
+                    <div class="meal-items" id="dinner-items">
+                        <div class="meal-item-placeholder">
+                            <span>No meals planned</span>
+                        </div>
+                         <div class="meal-section" data-meal="dinner">
+                    <div class="meal-header">
+                        <h3>Snacks</h3>
+                        <button class="add-meal-btn" data-meal="snacks">+</button>
+                    </div>
+                    <div class="meal-items" id="snacks-items">
+                        <div class="meal-item-placeholder">
+                            <span>No snacks planned</span>
+                        </div>
+                     
+                        </div>
                     </div>
                  </div>
                </div>
              
              <div class="quick-add-section">
+                <h4>Quick Add</h4>
+                <div class="quick-add-form">
+                    <input
+                    type="text"
+                    id="quick-meal-type"
+                    placeholder="e.g., Oatmeal with berries"
+                    />
+                    <section id="quick-meal-type">
+                        <option value="breakfast">Breakfast</option>
+                        <option value="lunch">Lunch</option>
+                        <option value="dinner">Dinner</option>
+                        <option value="snacks">Snacks</option>
+                    </section>
+                    <button id="quick-add-btn">Add</button>
+                </div>
               </div>
              
             </div>
