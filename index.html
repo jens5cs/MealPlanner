@@ -47,7 +47,32 @@
 
         <div class="main-content">
             <div class="calculator-container">
-            < -- Meals content goes here -- >
+            <div class="planner-header">
+                <h2>Today's Meal Plan</h2>
+                <div class="day-selector">
+                    <button class="day-nav" id="prev-day"><</button>
+                    <span class="selected-date" id="selected-date">Tuesday, May 20</span>
+                    <button class="day-nav" id="next-day">></button>
+                </div>
+              </div>  
+            
+              <div class="meals-container">
+                 <div class="meal-section" data-meal="breakfast">
+                    <div class="meal-header">
+                        <h3>Breakfast</h3>
+                        <button class="add-meal-btn" data-meal="breakfast">+</button>
+                    </div>
+                    <div class="meal-items" id="breakfast-items">
+                        <div class="meal-item-placeholder">
+                            <span>No meals planned</span>
+                        </div>
+                    </div>
+                 </div>
+               </div>
+             
+             <div class="quick-add-section">
+              </div>
+             
             </div>
         </div>
     </div>
